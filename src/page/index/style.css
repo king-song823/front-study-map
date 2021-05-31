@@ -2,7 +2,7 @@
   font-family: Helvetica, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑",
     Arial, sans-serif;
   position: relative;
-  background-color: #2d4059;
+  background: linear-gradient(#9198e5, #345f8e);
   padding-top: 60px;
 }
 .desc-container {
@@ -13,7 +13,7 @@
   bottom: -20px;
 }
 .roadmap {
-  background-color: #2d4059;
+  background: llinear-gradient(#9198e5, #413086, #081038);
   padding-top: 40px;
 }
 
@@ -84,6 +84,6 @@
   margin: 0 auto;
 }
 .rc-switch-checked {
-  background-color: #2d4059;
+  background: linear-gradient(#9198e5, #345f8e);
   border-color: #fff;
 }

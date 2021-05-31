@@ -96,7 +96,7 @@ export function makeTextSquare(
     rx: 4,
     ry: 4,
     shadow: "rgba(0,0,0,0.3) 2px 2px 4px",
-    hasControls: false, // 关掉拖拉控制
+    hasControls: true, // 关掉拖拉控制
   });
   const Text = new fabric.Text(text, {
     fontSize: 15,

@@ -10,10 +10,10 @@ import "./style.css";
 
 const options = [
   { value: "all", label: "完整路线", canvasHeight: 5000 },
-  { value: "p1", label: "👶🏻 阶段1", canvasHeight: 2000 },
-  { value: "p2", label: "👦🏻 阶段2", canvasHeight: 3000 },
-  { value: "p3", label: "👨🏻 阶段3", canvasHeight: 2000 },
-  //   { value: "p10000", label: "👴🏻 养生路线" },  // 这个也挺重要的，哈哈！(手动狗头
+  { value: "p1", label: "鸡头白脸,找份工作", canvasHeight: 2000 },
+  { value: "p2", label: "持续精进,稳扎稳打", canvasHeight: 3000 },
+  { value: "p3", label: "进阶突破，冲击大厂", canvasHeight: 2000 },
+  // { value: "p10000", label: "养生路线" },  // 这个也挺重要的，哈哈！(手动狗头
 ];
 
 function Index() {

@@ -28,7 +28,7 @@ export default function Guide() {
     Array.from(document.getElementsByTagName("a")).forEach((el) => {
       el.setAttribute("target", "_blank");
     });
-    const commitLogApi = `https://api.github.com/repos/ObjTube/front-end-roadmap/commits?path=src/page/guide/md/${query}.md`;
+    const commitLogApi = `https://github.com/ink-song/front-map/commits?path=src/page/guide/md/${query}.md`;
     Axios.get(commitLogApi).then((res) => {
       if (res.status && res.data) {
         const contributors = distinct(res.data)
@@ -46,13 +46,13 @@ export default function Guide() {
   return (
     <div className="guide-container">
       <div className="go-home" onClick={history.goBack}>
-        <span>{"<- 返回"}</span>
+        <span>{"🔙 返回"}</span>
       </div>
       <>
         <Markdown />
         <div className="go-github-edit">
           <a
-            href={`https://github.com/ObjTube/front-end-roadmap/edit/master/src/page/guide/md/${query}.md`}
+            href={`https://github.com/ink-song/front-map/edit/dev/src/page/guide/md/${query}.md`}
           >
             想要补充，点击这里
             <span role="img" aria-label="cool">
